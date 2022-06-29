@@ -1,0 +1,21 @@
+.contacts__content{
+  padding-top: 70px;
+  width: 100%;
+  text-align: center;
+}
+.contacts__item {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts__item a{
+  font-size: 20px;
+  color: #E48149;
+}
+.contacts__item img{
+  position: relative !important;
+  width: 50px !important;
+  height: 50px !important;
+  z-index: 1 !important;
+}

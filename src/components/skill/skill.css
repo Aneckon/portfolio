@@ -1,0 +1,48 @@
+.atropos-banner .image-decor-tree {
+  top: 20% !important;
+  width: 500px !important;
+  left: 0 !important;
+}
+.atropos-banner .image-decor-tree:nth-child(5) {
+  top: 20% !important;
+  width: 500px !important;
+  left: 75% !important;
+  right: 0;
+}
+.swiper-slide-active .atropos-banner .image-decor-tree {
+  animation: animationsTree linear 1s;
+}
+.swiper-slide-active .atropos-banner .image-decor-tree:nth-child(5) {
+  animation: animationsTree1 linear 1s;
+}
+.swiper-slide-active .atropos-banner img:nth-child(6) {
+  animation: animationsTree2 linear 1s;
+}
+.swiper-slide-active .atropos-banner img:nth-child(7) {
+  animation: animationsTree2 linear 1.2s;
+}
+
+@keyframes animationsTree {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes animationsTree1 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes animationsTree2 {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

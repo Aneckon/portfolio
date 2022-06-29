@@ -1,0 +1,153 @@
+.panel {
+  max-width: 1000px;
+  padding: 30px;
+  width: 100%;
+  margin: 140px auto;
+  background: #fff;
+  height: 600px;
+  border-radius: 25px;
+  border: 10px solid #e48149;
+}
+.swiper-slide-active .panel {
+  animation: animationsPanel linear 0.5s;
+}
+@keyframes animationsPanel {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+  }
+}
+.panel h2 {
+  font-size: 46px;
+  text-align: center;
+  color: #e48149;
+  padding-bottom: 40px;
+}
+.swiper-slide-active .panel h2 {
+  animation: animationsTitleSkill linear 1s;
+}
+@keyframes animationsTitleSkill {
+  0% {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.panel__skill-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.panel__skill-item p {
+  font-size: 20px;
+  color: #e48149;
+  padding-bottom: 10px;
+}
+.panel__skill-content__left {
+  width: 45%;
+}
+.panel__skill-content__right {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.panel__skill-content__item {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 20px;
+  height: 18px;
+  margin-bottom: 16px;
+}
+.skills {
+  text-align: right;
+  padding-top: 2px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.HTML5 {
+  width: 90%;
+  background-color: #e48149;
+  height: 18px;
+}
+.CSS3 {
+  width: 90%;
+  background-color: #e48149;
+  height: 18px;
+}
+.JAVASCRIPT {
+  width: 80%;
+  background-color: #e48149;
+  height: 18px;
+}
+.REACT {
+  width: 70%;
+  background-color: #e48149;
+  height: 18px;
+}
+.REDUX {
+  width: 70%;
+  background-color: #e48149;
+  height: 18px;
+}
+.TYPESCRIPT {
+  width: 50%;
+  background-color: #e48149;
+  height: 18px;
+}
+.VUE {
+  width: 30%;
+  background-color: #e48149;
+  height: 18px;
+}
+.swiper-slide-active .panel__skill-item {
+  animation: animationsSkill linear 1s;
+}
+@keyframes animationsSkill {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.panel__skill-content__right .panel__skill-item {
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+.panel__skill-content__image {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+.panel__skill-content__image img {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 1 !important;
+}
+.swiper-slide-active .panel__skill-content__image {
+  animation: animationsSkillImage linear 1s;
+}
+@keyframes animationsSkillImage {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
