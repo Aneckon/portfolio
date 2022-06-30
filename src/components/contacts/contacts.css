@@ -12,8 +12,12 @@
 .contacts__item a{
   font-size: 20px;
   color: #E48149;
+  transition: .3s;
 }
-.contacts__item img{
+.contacts__item a:hover{
+  color: #965732;
+}
+.atropos-banner .contacts__item img{
   position: relative !important;
   width: 50px !important;
   height: 50px !important;

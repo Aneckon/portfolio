@@ -29,7 +29,7 @@ export const Contacts = () => {
         <Panel title="Contacts">
           <div className="contacts__content">
             {mokContacts.map((item) => (
-              <div className="contacts__item">
+              <div key={item.id} className="contacts__item">
                 <img src={item.image} alt="" />
                 <a href={item.href}>{item.name}</a>
               </div>
