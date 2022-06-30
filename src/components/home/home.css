@@ -70,7 +70,7 @@
 .atropos-banner-text img {
   position: relative !important;
   top: 0;
-  left: 0;
+  left: 0 !important;
   width: 300px;
   height: 300px;
 }
