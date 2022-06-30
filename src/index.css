@@ -306,10 +306,6 @@ table {
   .swiper-pagination {
     display: none;
   }
-  .atropos-banner-array {
-    width: 30px;
-    height: 30px;
-  }
   .atropos-banner .image-decor-kisspng {
     width: 700px !important;
   }
@@ -502,10 +498,6 @@ table {
   .atropos-banner-text h1 {
     font-size: 40px;
   }
-  .atropos-banner-array {
-    width: 20px;
-    height: 20px;
-  }
   .atropos-banner .image-decor-tree:nth-child(5) {
     left: 60% !important;
   }
@@ -522,10 +514,6 @@ table {
   }
   .atropos-banner-text h1 {
     font-size: 40px;
-  }
-  .atropos-banner-array {
-    width: 20px;
-    height: 20px;
   }
   .atropos-banner .image-decor-tree:nth-child(5) {
     left: 60% !important;
@@ -565,10 +553,6 @@ table {
   .atropos-banner-text h1 {
     font-size: 40px;
   }
-  .atropos-banner-array {
-    width: 10px;
-    height: 10px;
-  }
   .atropos-banner .image-decor-tree:nth-child(5) {
     left: 60% !important;
   }
@@ -600,15 +584,11 @@ table {
   .atropos-banner-text h1 {
     font-size: 40px;
   }
-  .atropos-banner-array {
-    width: 10px;
-    height: 10px;
-  }
   .atropos-banner .image-decor-tree:nth-child(5) {
     left: 50% !important;
   }
   .atropos-banner .image-decor-tree {
-    left: -90% !important;
+    left: -70% !important;
   }
   .atropos-banner .image-decor-kisspng {
     top: 70% !important;
