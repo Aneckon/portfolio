@@ -18,6 +18,8 @@ import email from './images/email.svg';
 import telegram from './images/telegram.svg';
 import github from './images/github.svg';
 
+import scrin1 from './images/1.png';
+
 export const mokImageHome = [
   {
     id: 1,
@@ -105,6 +107,16 @@ export const mokImageSkill = [
     atropos: '4',
     className: '',
   },
+];
+export const mokImagePortfolioContent = [
+  {
+    id: 1,
+    img: scrin1,
+    conent: {
+      name: 'Users list',
+      steck: 'React, TypeScript, Scss',
+    },
+  }
 ];
 export const mokImagePortfolio = [
   {

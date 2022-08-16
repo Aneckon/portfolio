@@ -1,10 +1,10 @@
 import React from 'react';
 import Atropos from 'atropos/react';
+import { Panel } from '../panel';
 
-import { mokImagePortfolio } from '../mokApi';
+import { mokImagePortfolio, mokImagePortfolioContent } from '../mokApi';
 
 import './portfolio.css';
-import { Panel } from '../panel';
 
 interface PortfolioApi {
   id: any;
@@ -28,10 +28,23 @@ export const Portfolio = () => {
         ))}
         <Panel title="Portfolio">
           <div className="portfolio__content">
-            <div className="portfolio__item"></div>
-            <div className="portfolio__item"></div>
-            <div className="portfolio__item"></div>
-            <div className="portfolio__item"></div>
+            {mokImagePortfolioContent.map((img) => (
+              <a
+                href="https://users-list-sooty.vercel.app/"
+                target="_blank"
+                key={img.id}
+                className="portfolio__item">
+                <img src={img.img} alt="" />
+                <div className="portfolio__item-content">
+                  <p>
+                    <span>Назва:</span> {img.conent?.name}
+                  </p>
+                  <p>
+                    <span>Стек:</span> {img.conent?.steck}
+                  </p>
+                </div>
+              </a>
+            ))}
           </div>
         </Panel>
       </Atropos>
