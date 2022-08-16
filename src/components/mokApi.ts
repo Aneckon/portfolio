@@ -19,6 +19,7 @@ import telegram from './images/telegram.svg';
 import github from './images/github.svg';
 
 import scrin1 from './images/1.png';
+import scrin2 from './images/2.png';
 
 export const mokImageHome = [
   {
@@ -117,7 +118,16 @@ export const mokImagePortfolioContent = [
       name: 'Users list',
       steck: 'React, TypeScript, Scss',
     },
-  }
+  },
+  {
+    id: 2,
+    img: scrin2,
+    link: 'https://course-currenty.vercel.app/',
+    conent: {
+      name: 'Course Currenty',
+      steck: 'React, TypeScript, Scss',
+    },
+  },
 ];
 export const mokImagePortfolio = [
   {
