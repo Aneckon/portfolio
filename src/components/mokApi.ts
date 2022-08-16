@@ -112,7 +112,7 @@ export const mokImagePortfolioContent = [
   {
     id: 1,
     img: scrin1,
-    link: 'https://users-list-sooty.vercel.app/'
+    link: 'https://users-list-sooty.vercel.app/',
     conent: {
       name: 'Users list',
       steck: 'React, TypeScript, Scss',
