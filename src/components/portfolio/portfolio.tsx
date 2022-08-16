@@ -29,11 +29,7 @@ export const Portfolio = () => {
         <Panel title="Portfolio">
           <div className="portfolio__content">
             {mokImagePortfolioContent.map((img) => (
-              <a
-                href="https://users-list-sooty.vercel.app/"
-                target="_blank"
-                key={img.id}
-                className="portfolio__item">
+              <a href={img.link} target="_blank" key={img.id} className="portfolio__item">
                 <img src={img.img} alt="" />
                 <div className="portfolio__item-content">
                   <p>
