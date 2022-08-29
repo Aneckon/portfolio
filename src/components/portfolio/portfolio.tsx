@@ -33,10 +33,10 @@ export const Portfolio = () => {
                 <img src={img.img} alt="" />
                 <div className="portfolio__item-content">
                   <p>
-                    <span>Назва:</span> {img.conent?.name}
+                    <span>Назва:</span> {img.content?.name}
                   </p>
                   <p>
-                    <span>Стек:</span> {img.conent?.steck}
+                    <span>Стек:</span> {img.content?.steck}
                   </p>
                 </div>
               </a>

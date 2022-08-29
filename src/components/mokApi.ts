@@ -20,6 +20,7 @@ import github from './images/github.svg';
 
 import scrin1 from './images/1.png';
 import scrin2 from './images/2.png';
+import scrin3 from './images/3.png';
 
 export const mokImageHome = [
   {
@@ -114,7 +115,7 @@ export const mokImagePortfolioContent = [
     id: 1,
     img: scrin1,
     link: 'https://users-list-sooty.vercel.app/',
-    conent: {
+    content: {
       name: 'Users list',
       steck: 'React, TypeScript, Scss',
     },
@@ -123,10 +124,19 @@ export const mokImagePortfolioContent = [
     id: 2,
     img: scrin2,
     link: 'https://course-currenty.vercel.app/',
-    conent: {
+    content: {
       name: 'Course Currenty',
       steck: 'React, TypeScript, Scss',
     },
+  },
+  {
+    id: 3,
+    img: scrin3,
+    link: 'https://chat-xi-eight.vercel.app/',
+    content: {
+      name: 'Chat',
+      steck: 'React, TypeScript, Scss, FireBase'
+    }
   },
 ];
 export const mokImagePortfolio = [
