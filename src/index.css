@@ -431,10 +431,6 @@ table {
   .panel__skill-item p {
     font-size: 16px;
   }
-  .panel__skill-content__image {
-    width: 40px;
-    height: 40px;
-  }
   .portfolio__item {
     width: 100px;
     height: 100px;
@@ -565,8 +561,19 @@ table {
 }
 @media (max-width: 420px) {
   .panel {
-    margin: 100px auto;
+    margin: 0px auto;
     padding: 20px;
+  }
+  .panel__skill-content__image {
+    width: 31px;
+    height: 31px;
+  }
+  .portfolio .panel{
+    margin-top: 140px;
+  }
+  .portfolio .panel .portfolio__item img{
+    object-fit: cover;
+    width: 100% !important;
   }
   .panel__skill-content {
     flex-direction: column;
